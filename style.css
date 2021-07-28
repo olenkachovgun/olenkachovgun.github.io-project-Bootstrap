@@ -1,0 +1,131 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /*background: #faf9f9;*/
+}
+
+header{
+    background-image: url(images/foto3.jpg);
+    width: 100%;
+    height: 400px;
+    background-size: 100%;
+    position: relative;
+   
+}
+@media (max-width: 864px){
+header{
+    height: 300px;
+    background-size: auto;
+}
+}
+nav a{
+    font-size: large;
+    font-weight: 700;
+}
+.description{
+    position: absolute;
+    top: 50%;
+    text-shadow: 2px 2px 2px white;
+    margin: auto;
+    left: 7%;
+}
+
+.description p{
+    width: 50%;
+    font-size: 20px;
+    font-weight: 700;
+    color: #493e4a;
+}
+.description button{
+    color: white;
+    font-weight: 600;
+    padding: 5px;
+    margin-top: 5px;
+    background: rgba(252, 166, 5, 0.815);
+    
+}
+.description button:hover{
+    background: rgb(252, 165, 5);
+    color:white
+   
+}
+h2,h3{
+    color: rgb(252, 165, 5);
+    text-transform: uppercase;
+}
+.travel img{
+    width:100%;
+    height: 190px;
+}
+.travel_content{
+    border:4px solid white;
+    box-sizing: border-box;
+}
+
+.info{
+    position: relative;
+}
+.info span{
+    font-weight: 600;
+    color: #493e4a;
+    font-size:18px;
+}
+.second{
+    border-left:4px solid #ffc107a8;
+    padding-top: 50px;
+    padding-left: 30px;
+}
+.second h4{
+    color:#ffc107a8; 
+}
+.second p{
+    color: #493e4a;
+    line-height: 2;
+}
+.carousel img{
+    height: 380px;
+}
+.mycarousel{
+    width: 747px;
+    margin: auto;
+}
+.borderr{
+    border-left:4px solid #ffc107a8;
+
+}
+.fa-angle-double-down{
+    font-size: 30px;
+}
+.komanda1{
+    width: 100%;
+    height: 150px;
+}
+.name{
+    font-weight: 700;
+    border-top-right-radius: 100%;
+    position: absolute;
+    bottom: 24px;
+    width: 90%;
+}
+.komandaphoto1{
+    position: relative;
+    width:250px;
+    
+}
+.komandaphoto1 img{
+    width: 90%;
+    margin:auto
+}
+
+.posada{
+    font-size: 16px;
+    font-weight: 600;
+}
+.komandaphoto1:hover{
+    text-decoration: underline;
+    box-shadow: 2px 2px 20px 3px rgb(240, 180, 15);
+}
+
+form button span{
+font-weight:700;}
